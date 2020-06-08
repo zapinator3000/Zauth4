@@ -5,7 +5,10 @@ A user-management system designed for easy Python implementation
 
   Zauth is a simple user-management system designed to be secure and easy to implement across all your python applications.
   Allowing users to only have one account across your entire application suite.
-  
+
+# Platform
+  Server: Linux (Tested on Ubuntu 16.04-18.04)
+  Client: Windows 10, Ubuntu 18.04/Linux 64 bit
 # History and Development
 
   Development for Zauth began in 2017 with Zauth Version 1. The idea was to design a free, open-source, easy-to-implement user management platform similar to OAuth. 
