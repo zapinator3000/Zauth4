@@ -8,6 +8,7 @@ A user-management system designed for easy Python implementation
 
 # Platform
   Server: Linux (Tested on Ubuntu 16.04-18.04)
+  
   Client: Windows 10, Ubuntu 18.04/Linux 64 bit
 # History and Development
 
