@@ -9,7 +9,9 @@ A user-management system designed for easy Python implementation
 # History and Development
 
   Development for Zauth began in 2017 with Zauth Version 1. The idea was to design a free, open-source, easy-to-implement user management platform similar to OAuth. 
+  
   The first design, completed within a few weeks consisted of a simple key system that allowed applications to be registered to a token. However, no other implementation was done, and all processing was done CLIENT side.
+  
   In Zauth 2 and Zauth 3, many thing changed, including implementing Zauth Keyfiles, filehashing, and double-encryption. However, the processing was still done through the client. This was a significant security concern, and it was decided to pull the old versions out of release and work on the new Server-based Zauth 4. Another reason was that it was discovered that any application could use Zauth's internal methods to return the user's password in plain-text. Obviously, this was a HUGE issue that Zauth4 stived to fix.
   
 Moving forward to this release of Zauth4. You might notice, it's not functional. Well, not entirely. Zauth4 has fixed the internal method issue, now implementing clever security checks by watching who tried to call protected methods. However, the code is still based on the older Zauth 3 engine with a server layer added, meaning that the server and client are extremely difficult to program for. This is made worse by the failed attempt at RSA encryption, the current Server is broken.
